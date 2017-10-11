@@ -22,22 +22,22 @@ namespace Task9LongerLine
         }
         static double PodoubleDistans(double a, double b, double c, double d)
         {
-            
+
             double disttans = 0;
-            if (a==c)
-            {
-                disttans = Math.Abs(b)+Math.Abs(d);
-            }
-            if (b==d)
-            {
-                disttans = Math.Abs(a) + Math.Abs(c);
-            }
-            else 
-            {
-                double PodoubleDistans1 = Math.Pow(a, 2) + Math.Pow(b, 2);
-                double PodoubleDistans2 = Math.Pow(c, 2) + Math.Pow(d, 2);
-                disttans = Math.Sqrt(PodoubleDistans1 + PodoubleDistans2);
-            }
+            //if (a==c)
+            //{
+            //    disttans = Math.Abs(b)+Math.Abs(d);
+            //}
+            //if (b==d)
+            //{
+            //    disttans = Math.Abs(a) + Math.Abs(c);
+            //}
+            //else 
+            //{
+            //    double PodoubleDistans1 = Math.Pow(a, 2) + Math.Pow(b, 2);
+            //    double PodoubleDistans2 = Math.Pow(c, 2) + Math.Pow(d, 2);
+            disttans = Math.Sqrt(Math.Pow((a - c), 2) + Math.Pow((b - d), 2));
+        //}
             return disttans;
         }
         static void Main()
