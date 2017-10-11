@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task6PrimeChecker", "Task6P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task7PrimesInGivenRange", "Task7PrimesInGivenRange\Task7PrimesInGivenRange.csproj", "{A414D218-1E94-40C8-860A-86C3BFE4B377}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "task8CenterPoint", "task8CenterPoint\task8CenterPoint.csproj", "{DAFCE0A5-FAB3-437B-ABFC-0C30DEDDD29C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task9LongerLine", "Task9LongerLine\Task9LongerLine.csproj", "{94BBB47D-AF56-49B8-A673-AAAF04C688B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{A414D218-1E94-40C8-860A-86C3BFE4B377}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A414D218-1E94-40C8-860A-86C3BFE4B377}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A414D218-1E94-40C8-860A-86C3BFE4B377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAFCE0A5-FAB3-437B-ABFC-0C30DEDDD29C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAFCE0A5-FAB3-437B-ABFC-0C30DEDDD29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAFCE0A5-FAB3-437B-ABFC-0C30DEDDD29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAFCE0A5-FAB3-437B-ABFC-0C30DEDDD29C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94BBB47D-AF56-49B8-A673-AAAF04C688B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BBB47D-AF56-49B8-A673-AAAF04C688B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BBB47D-AF56-49B8-A673-AAAF04C688B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BBB47D-AF56-49B8-A673-AAAF04C688B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
