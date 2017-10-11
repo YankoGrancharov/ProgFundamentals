@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task5FibonacciNumbers", "Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task6PrimeChecker", "Task6PrimeChecker\Task6PrimeChecker.csproj", "{48087C84-EBAE-4168-A5B1-D0A139009C8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task8CenterPoint", "Task8CenterPoint\Task8CenterPoint.csproj", "{A9AF931B-D0CD-46A6-92FF-018A578B0B3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task7PrimesInGivenRange", "Task7PrimesInGivenRange\Task7PrimesInGivenRange.csproj", "{A414D218-1E94-40C8-860A-86C3BFE4B377}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{48087C84-EBAE-4168-A5B1-D0A139009C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48087C84-EBAE-4168-A5B1-D0A139009C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48087C84-EBAE-4168-A5B1-D0A139009C8F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A9AF931B-D0CD-46A6-92FF-018A578B0B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A9AF931B-D0CD-46A6-92FF-018A578B0B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A9AF931B-D0CD-46A6-92FF-018A578B0B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A9AF931B-D0CD-46A6-92FF-018A578B0B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A414D218-1E94-40C8-860A-86C3BFE4B377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A414D218-1E94-40C8-860A-86C3BFE4B377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A414D218-1E94-40C8-860A-86C3BFE4B377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A414D218-1E94-40C8-860A-86C3BFE4B377}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
