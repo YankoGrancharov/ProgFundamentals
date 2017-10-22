@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3SearchForANumber", "Ta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{94DF3A4D-0126-425D-AD66-92114EB7C0D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4LongestIncreasingSubsequence", "Task4LongestIncreasingSubsequence\Task4LongestIncreasingSubsequence.csproj", "{2CC525B8-EB19-4735-9E5F-71E3A30E3F75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{94DF3A4D-0126-425D-AD66-92114EB7C0D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94DF3A4D-0126-425D-AD66-92114EB7C0D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94DF3A4D-0126-425D-AD66-92114EB7C0D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CC525B8-EB19-4735-9E5F-71E3A30E3F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC525B8-EB19-4735-9E5F-71E3A30E3F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC525B8-EB19-4735-9E5F-71E3A30E3F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC525B8-EB19-4735-9E5F-71E3A30E3F75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
