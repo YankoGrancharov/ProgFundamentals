@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task1CountWorkingDays", "Task1CountWorkingDays\Task1CountWorkingDays.csproj", "{D77C3942-9A45-4944-B4EE-F3880C71A495}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3IntersectionOfCircles", "Task3IntersectionOfCircles\Task3IntersectionOfCircles.csproj", "{753B6585-C586-4432-B0B5-5735C42C44C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{90958356-6838-4178-94BF-41DC461BF14E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D77C3942-9A45-4944-B4EE-F3880C71A495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77C3942-9A45-4944-B4EE-F3880C71A495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77C3942-9A45-4944-B4EE-F3880C71A495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77C3942-9A45-4944-B4EE-F3880C71A495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{753B6585-C586-4432-B0B5-5735C42C44C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{753B6585-C586-4432-B0B5-5735C42C44C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{753B6585-C586-4432-B0B5-5735C42C44C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{753B6585-C586-4432-B0B5-5735C42C44C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90958356-6838-4178-94BF-41DC461BF14E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90958356-6838-4178-94BF-41DC461BF14E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90958356-6838-4178-94BF-41DC461BF14E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90958356-6838-4178-94BF-41DC461BF14E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
