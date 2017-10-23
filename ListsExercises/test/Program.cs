@@ -524,39 +524,39 @@
 //    }
 //}
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+////////using System;
+////////using System.Collections.Generic;
+////////using System.Linq;
+////////using System.Text;
+////////using System.Threading.Tasks;
 
-namespace _10.Pairs_by_Difference
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
-            int n = int.Parse(Console.ReadLine());
-            int counter = 0;
+////////namespace _10.Pairs_by_Difference
+////////{
+////////    class Program
+////////    {
+////////        static void Main(string[] args)
+////////        {
+////////            int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+////////            int n = int.Parse(Console.ReadLine());
+////////            int counter = 0;
 
-            for (int i = 0; i < numbers.Length; i++)
-            {
-                for (int k = 0; k < numbers.Length; k++)
-                {
-                    if (Math.Abs(numbers[k] - numbers[i]) == n && i < k)
-                    {
-                        //Console.WriteLine(numbers[i] + " " + numbers[k]);
-                        counter++;
-                    }
-                }
-            }//end of for
+////////            for (int i = 0; i < numbers.Length; i++)
+////////            {
+////////                for (int k = 0; k < numbers.Length; k++)
+////////                {
+////////                    if (Math.Abs(numbers[k] - numbers[i]) == n && i < k)
+////////                    {
+////////                        //Console.WriteLine(numbers[i] + " " + numbers[k]);
+////////                        counter++;
+////////                    }
+////////                }
+////////            }//end of for
 
-            Console.WriteLine(counter);
+////////            Console.WriteLine(counter);
 
-        }
-    }
-}
+////////        }
+////////    }
+////////}
 
 
 ////////////////////////////////////////using System;
@@ -609,3 +609,208 @@ namespace _10.Pairs_by_Difference
 ////////////////////////////////////////        }
 ////////////////////////////////////////    }
 ////////////////////////////////////////}
+
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//namespace ArrayManipulator
+//{
+//    class ArrayManipulator
+//    {
+//        static void Main(string[] args)
+//        {
+//            List<int> numbers = Console.ReadLine()
+//                                .Split()
+//                                .Select(int.Parse)
+//                                .ToList();
+
+//            bool canContinue = true;
+
+//            while (canContinue)
+//            {
+//                List<string> commands = Console.ReadLine().Split().ToList();
+
+//                switch (commands[0])
+//                {
+//                    case "add":
+//                        AddElements(numbers, commands);
+//                        break;
+//                    case "addMany":
+//                        int indx = int.Parse(commands[1]);
+//                        numbers.InsertRange(indx, commands.Skip(2).Select(int.Parse));
+//                        break;
+//                    case "contains":
+//                        ContainsElement(numbers, commands);
+//                        break;
+//                    case "remove":
+//                        numbers.RemoveAt(int.Parse(commands[1]));
+//                        break;
+//                    case "shift":
+//                        ShiftElements(numbers, commands);
+//                        break;
+//                    case "sumPairs":
+//                        SumPairs(numbers);
+//                        break;
+//                    case "print":
+//                        Console.WriteLine("[{0}]", string.Join(", ", numbers));
+//                        canContinue = false;
+//                        break;
+//                }
+//            }
+//        }
+
+//        private static void SumPairs(List<int> numbers)
+//        {
+
+//            if (numbers.Count % 2 != 0)
+//            {
+//                numbers.Insert(numbers.Count - 1, 0);
+//            }
+
+//            for (int i = 0; i < numbers.Count - 1; i++)
+//            {
+//                numbers[i] = numbers[i] + numbers[i + 1];
+//                numbers.RemoveAt(i + 1);
+//            }
+
+//        }
+
+//        private static void ShiftElements(List<int> numbers, List<string> commands)
+//        {
+//            int positions = int.Parse(commands[1]);
+
+//            for (int i = 0; i < positions; i++)
+//            {
+//                int last = numbers[0];
+
+//                numbers.RemoveAt(0);
+//                numbers.Add(last);
+//            }
+//        }
+
+
+//        private static void ContainsElement(List<int> numbers, List<string> commands)
+//        {
+//            int element = int.Parse(commands[1]);
+
+//            if (numbers.Contains(element))
+//            {
+//                Console.WriteLine(numbers.IndexOf(element));
+//            }
+//            else
+//            {
+//                Console.WriteLine("-1");
+//            }
+//        }
+
+//        private static void AddElements(List<int> numbers, List<string> commands)
+//        {
+//            int index = int.Parse(commands[1]);
+//            int element = int.Parse(commands[2]);
+
+//            numbers.Insert(index, element);
+//        }
+//    }
+//}
+////////using System;
+////////using System.Collections.Generic;
+////////using System.Linq;
+//////////01. Largest Common End
+////////namespace LargestCommonEnd
+////////{
+////////    public class LargestCommonEnd
+////////    {
+////////        static void Main(string[] args)
+////////        {
+////////            string[] arrayOne = Console.ReadLine().Split(' ');
+////////            string[] arrayTwo = Console.ReadLine().Split(' ');
+
+////////            int leftCounter = 0;
+////////            int rightCounter = 0;
+
+////////            for (int i = 0; i <= Math.Min(arrayOne.Length, arrayTwo.Length) - 1; i++)
+////////            {
+////////                if (arrayOne[i] == arrayTwo[i])
+////////                {
+////////                    leftCounter++;
+////////                }
+////////                else
+////////                {
+////////                    break;
+////////                }
+////////            }
+
+////////            for (int i = 0; i <= Math.Min(arrayOne.Length, arrayTwo.Length) - 1; i++)
+////////            {
+////////                if (arrayOne[arrayOne.Length - 1 - i] == arrayTwo[arrayTwo.Length - 1 - i])
+////////                {
+////////                    rightCounter++;
+////////                }
+////////                else
+////////                {
+////////                    break;
+////////                }
+////////            }
+
+////////            Console.WriteLine(Math.Max(leftCounter, rightCounter));
+////////        }
+////////    }
+////////}
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+namespace Longest_Increasing_Subsequence
+{
+    
+
+    public class LongestIncreasingSubsequence
+    {
+        public static void Main()
+        {
+            var sequence = Console.ReadLine().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).Select(x => int.Parse(x)).ToArray();
+            var longestSeq = FindLongestIncreasingSubsequence(sequence);
+            
+            Console.WriteLine("{0}", string.Join(" ", longestSeq));
+        }
+
+        public static int[] FindLongestIncreasingSubsequence(int[] sequence)
+        {
+            int[] length = new int[sequence.Length];
+            int[] prev = new int[sequence.Length];
+            int maxLength = 0;
+            int lastIndex = -1;
+
+            for (int i = 0; i < sequence.Length; i++)
+            {
+                length[i] = 1;
+                prev[i] = -1;
+
+                for (int j = 0; j < i; j++)
+                {
+                    if (sequence[j] < sequence[i] && length[j] >= length[i])
+                    {
+                        length[i] = 1 + length[j];
+                        prev[i] = j;
+                    }
+                }
+
+                if (length[i] > maxLength)
+                {
+                    maxLength = length[i];
+                    lastIndex = i;
+                }
+            }
+
+            var longestSeq = new List<int>();
+            for (int i = 0; i < maxLength; i++)
+            {
+                longestSeq.Add(sequence[lastIndex]);
+                lastIndex = prev[lastIndex];
+            }
+
+            longestSeq.Reverse();
+            return longestSeq.ToArray();
+        }
+    }
+}
